@@ -1,0 +1,42 @@
+﻿<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 420 420" role="img" aria-labelledby="title desc">
+  <title id="title">Daniela Henriquez Propiedades</title>
+  <desc id="desc">Logo circular en tonos dorados y negros con una llave en la parte superior.</desc>
+  <defs>
+    <linearGradient id="gold" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#d8bc7b" />
+      <stop offset="52%" stop-color="#c7a35d" />
+      <stop offset="100%" stop-color="#a88444" />
+    </linearGradient>
+    <style>
+      .stroke-gold { stroke: url(#gold); }
+      .fill-gold { fill: url(#gold); }
+      .main {
+        font-family: "Cinzel", "Times New Roman", serif;
+        font-weight: 700;
+        text-transform: uppercase;
+        letter-spacing: 1.4px;
+      }
+      .sub {
+        font-family: "Montserrat", Arial, sans-serif;
+        font-weight: 600;
+        text-transform: uppercase;
+        letter-spacing: 6px;
+      }
+    </style>
+  </defs>
+
+  <circle cx="210" cy="210" r="206" fill="#030303" />
+  <circle cx="210" cy="210" r="195" fill="none" class="stroke-gold" stroke-width="2.4" />
+
+  <g class="stroke-gold" stroke-width="8" stroke-linecap="round" stroke-linejoin="round" fill="none" transform="translate(0,-2)">
+    <circle cx="128" cy="92" r="22" />
+    <line x1="150" y1="92" x2="290" y2="92" />
+    <line x1="290" y1="92" x2="290" y2="106" />
+    <line x1="275" y1="92" x2="275" y2="106" />
+    <line x1="171" y1="92" x2="171" y2="98" />
+  </g>
+
+  <text x="210" y="200" class="main fill-gold" text-anchor="middle" font-size="42">Daniela</text>
+  <text x="210" y="252" class="main fill-gold" text-anchor="middle" font-size="54">Henriquez</text>
+  <text x="210" y="304" class="sub fill-gold" text-anchor="middle" font-size="18">Propiedades</text>
+</svg>

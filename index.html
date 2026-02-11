@@ -1,0 +1,333 @@
+﻿<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Daniela Henriquez Propiedades | Demo Landing</title>
+  <meta name="description" content="Landing page demo para Daniela Henriquez Propiedades" />
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@500;600;700&family=Montserrat:wght@300;400;500;600;700&display=swap" rel="stylesheet" />
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" />
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css" rel="stylesheet" />
+  <link href="assets/css/style.css" rel="stylesheet" />
+</head>
+<body>
+  <header class="site-header sticky-top">
+    <nav class="navbar navbar-expand-lg">
+      <div class="container py-2">
+        <a class="navbar-brand d-flex align-items-center gap-3" href="#inicio" aria-label="Inicio Daniela Henriquez Propiedades">
+          <img src="assets/img/logo-daniela.svg" alt="Daniela Henriquez Propiedades" class="brand-logo" />
+          <span class="brand-text">
+            <strong>Daniela Henriquez</strong>
+            <small>Propiedades</small>
+          </span>
+        </a>
+
+        <button class="navbar-toggler border-0" type="button" data-bs-toggle="collapse" data-bs-target="#mainMenu" aria-controls="mainMenu" aria-expanded="false" aria-label="Abrir menú">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="mainMenu">
+          <ul class="navbar-nav ms-auto mb-2 mb-lg-0 gap-lg-2">
+            <li class="nav-item"><a class="nav-link" href="#inicio">Inicio</a></li>
+            <li class="nav-item"><a class="nav-link" href="#destacadas">Destacadas</a></li>
+            <li class="nav-item"><a class="nav-link" href="#servicios">Servicios</a></li>
+            <li class="nav-item"><a class="nav-link" href="#contacto">Contacto</a></li>
+          </ul>
+          <a class="maiko-nav-tag d-none d-xl-inline-flex ms-lg-3" href="https://maikostudios.com/" target="_blank" rel="noopener noreferrer" aria-label="Demo creada por MaikoStudios">
+            <img src="assets/img/maikostudios-logo.svg" alt="MaikoStudios" />
+            <span>Demo by MaikoStudios</span>
+          </a>
+          <a class="btn btn-brand btn-sm ms-lg-3" href="https://wa.me/56912345678" target="_blank" rel="noopener noreferrer">
+            <i class="bi bi-whatsapp me-2"></i>WhatsApp
+          </a>
+        </div>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <section id="inicio" class="hero-section">
+      <div class="container position-relative">
+        <div class="row g-4 align-items-stretch">
+          <div class="col-12 col-lg-7">
+            <div class="hero-copy">
+              <span class="eyebrow">AGENCIA INMOBILIARIA BOUTIQUE</span>
+              <h1>Tu próxima propiedad en el sur de Chile empieza aquí</h1>
+              <p>
+                Venta de parcelas, casas, departamentos, cabañas y terrenos rurales con asesoría personalizada.
+                Conectamos inversión segura con estilo de vida.
+              </p>
+              <div class="d-flex flex-column flex-sm-row gap-2 hero-actions">
+                <a href="#destacadas" class="btn btn-brand">Explorar propiedades</a>
+                <a href="#contacto" class="btn btn-outline-light btn-hero">Agenda una asesoría</a>
+              </div>
+              <a class="maiko-hero-badge" href="https://maikostudios.com/" target="_blank" rel="noopener noreferrer">
+                <img src="assets/img/maikostudios-logo.svg" alt="MaikoStudios" />
+                <span>Demo creada por MaikoStudios</span>
+              </a>
+            </div>
+          </div>
+
+          <div class="col-12 col-lg-5">
+            <div class="search-panel card border-0 shadow-lg">
+              <div class="card-body p-3 p-sm-4">
+                <h2 class="h5 mb-1">Buscador avanzado</h2>
+                <p class="text-secondary small mb-3">Filtra por sector, región, provincia y comuna.</p>
+
+                <form id="propertyFilterForm" class="row g-2" novalidate>
+                  <div class="col-12">
+                    <label for="searchInput" class="form-label">Sector o palabra clave</label>
+                    <div class="input-group">
+                      <span class="input-group-text"><i class="bi bi-search"></i></span>
+                      <input id="searchInput" type="search" class="form-control" placeholder="Ej: Lago Villarrica, condominio" />
+                    </div>
+                  </div>
+
+                  <div class="col-6">
+                    <label for="regionSelect" class="form-label">Región</label>
+                    <select id="regionSelect" class="form-select">
+                      <option value="">Todas</option>
+                    </select>
+                  </div>
+
+                  <div class="col-6">
+                    <label for="provinceSelect" class="form-label">Provincia</label>
+                    <select id="provinceSelect" class="form-select">
+                      <option value="">Todas</option>
+                    </select>
+                  </div>
+
+                  <div class="col-6">
+                    <label for="communeSelect" class="form-label">Comuna</label>
+                    <select id="communeSelect" class="form-select">
+                      <option value="">Todas</option>
+                    </select>
+                  </div>
+
+                  <div class="col-6">
+                    <label for="typeSelect" class="form-label">Tipo</label>
+                    <select id="typeSelect" class="form-select">
+                      <option value="">Todos</option>
+                    </select>
+                  </div>
+
+                  <div class="col-12 d-grid gap-2 d-sm-flex">
+                    <button class="btn btn-brand flex-sm-fill" type="submit">Buscar propiedades</button>
+                    <button class="btn btn-outline-secondary flex-sm-fill" type="button" id="clearFiltersBtn">Limpiar</button>
+                  </div>
+                </form>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="destacadas" class="properties-section py-5">
+      <div class="container">
+        <div class="section-header d-flex flex-wrap gap-2 justify-content-between align-items-end">
+          <div>
+            <span class="eyebrow text-dark">PORTAFOLIO</span>
+            <h2>Propiedades destacadas</h2>
+          </div>
+          <p id="resultsMeta" class="mb-0 text-secondary small"></p>
+        </div>
+
+        <div id="propertiesGrid" class="row g-3 g-md-4 mt-1"></div>
+
+        <div id="noResults" class="alert alert-light border mt-4 d-none" role="alert">
+          No encontramos propiedades con esos filtros. Ajusta tu búsqueda e inténtalo nuevamente.
+        </div>
+      </div>
+    </section>
+
+    <section id="servicios" class="services-section py-5">
+      <div class="container">
+        <div class="section-header text-center mb-4">
+          <span class="eyebrow text-gold">SERVICIOS</span>
+          <h2>Asesoría integral para comprar o invertir</h2>
+        </div>
+
+        <div class="row g-3 g-md-4">
+          <article class="col-12 col-md-6 col-xl-3">
+            <div class="service-card h-100">
+              <i class="bi bi-house-heart"></i>
+              <h3>Compra guiada</h3>
+              <p>Evaluación comercial, comparativo de mercado y acompañamiento de cierre.</p>
+            </div>
+          </article>
+
+          <article class="col-12 col-md-6 col-xl-3">
+            <div class="service-card h-100">
+              <i class="bi bi-camera-video"></i>
+              <h3>Tour virtual</h3>
+              <p>Recorre inmuebles a distancia con sesión guiada por videollamada.</p>
+            </div>
+          </article>
+
+          <article class="col-12 col-md-6 col-xl-3">
+            <div class="service-card h-100">
+              <i class="bi bi-graph-up-arrow"></i>
+              <h3>Inversión rural</h3>
+              <p>Oportunidades en parcelas y terrenos con análisis de plusvalía proyectada.</p>
+            </div>
+          </article>
+
+          <article class="col-12 col-md-6 col-xl-3">
+            <div class="service-card h-100">
+              <i class="bi bi-file-earmark-check"></i>
+              <h3>Gestión legal</h3>
+              <p>Revisión documental, coordinación notarial y respaldo en todo el proceso.</p>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer id="contacto" class="site-footer py-5">
+    <div class="container">
+      <div class="row g-4 align-items-start">
+        <div class="col-12 col-lg-5">
+          <img src="assets/img/logo-daniela.svg" alt="Logo Daniela Henriquez Propiedades" class="footer-logo mb-3" />
+          <h3 class="h5 mb-3">Daniela Henriquez Propiedades</h3>
+          <p class="text-light-emphasis mb-3">Especialistas en propiedades residenciales y rurales en la zona sur de Chile.</p>
+          <div class="social-links d-flex flex-wrap gap-2">
+            <a href="#" aria-label="Instagram" class="btn btn-outline-light btn-sm"><i class="bi bi-instagram"></i> Instagram</a>
+            <a href="#" aria-label="Facebook" class="btn btn-outline-light btn-sm"><i class="bi bi-facebook"></i> Facebook</a>
+            <a href="#" aria-label="LinkedIn" class="btn btn-outline-light btn-sm"><i class="bi bi-linkedin"></i> LinkedIn</a>
+            <a href="https://wa.me/56912345678" aria-label="WhatsApp" target="_blank" rel="noopener noreferrer" class="btn btn-outline-light btn-sm"><i class="bi bi-whatsapp"></i> WhatsApp</a>
+          </div>
+
+          <a class="maiko-footer-credit mt-4" href="https://maikostudios.com/" target="_blank" rel="noopener noreferrer">
+            <img src="assets/img/maikostudios-logo.svg" alt="Logo MaikoStudios" />
+            <div>
+              <strong>Demo creada por MaikoStudios</strong>
+              <small>Aprende, crea y digitaliza tu mundo</small>
+            </div>
+          </a>
+        </div>
+
+        <div class="col-12 col-lg-7">
+          <div class="newsletter-card">
+            <h3 class="h5 mb-2">Suscríbete para nuevas propiedades</h3>
+            <p class="small text-light-emphasis mb-3">Te avisamos por correo cuando publiquemos una propiedad que calce con tu búsqueda.</p>
+            <form id="newsletterForm" class="row g-2">
+              <div class="col-12 col-md-8">
+                <label for="newsletterEmail" class="visually-hidden">Correo electrónico</label>
+                <input id="newsletterEmail" type="email" class="form-control" placeholder="Tu correo electrónico" required />
+              </div>
+              <div class="col-12 col-md-4 d-grid">
+                <button type="submit" class="btn btn-brand">Suscribirme</button>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+
+      <div class="d-flex flex-column flex-md-row justify-content-between gap-2 border-top border-secondary-subtle mt-4 pt-3 small text-light-emphasis">
+        <span>© 2026 Daniela Henriquez Propiedades. Demo comercial para Daniela Henriquez Propiedades.</span>
+        <span>Demo creada por <a href="https://maikostudios.com/" target="_blank" rel="noopener noreferrer" class="footer-credit-link">MaikoStudios</a></span>
+      </div>
+    </div>
+  </footer>
+
+  <a class="floating-whatsapp" href="https://wa.me/56912345678?text=Hola%20Daniela%2C%20quiero%20mas%20informacion%20de%20propiedades." target="_blank" rel="noopener noreferrer" aria-label="Abrir WhatsApp">
+    <i class="bi bi-whatsapp" aria-hidden="true"></i>
+  </a>
+
+  <div class="modal fade" id="propertyDetailModal" tabindex="-1" aria-labelledby="propertyDetailTitle" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-scrollable modal-xl modal-fullscreen-lg-down">
+      <div class="modal-content">
+        <div class="modal-header border-0 pb-0">
+          <div>
+            <span id="detailBadge" class="badge text-bg-dark mb-2">Venta</span>
+            <h2 id="propertyDetailTitle" class="modal-title h4 mb-1">Detalle de propiedad</h2>
+            <p id="detailLocation" class="small text-secondary mb-0"></p>
+          </div>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Cerrar"></button>
+        </div>
+
+        <div class="modal-body">
+          <div id="detailCarousel" class="carousel slide detail-carousel mb-4" data-bs-ride="carousel">
+            <div id="detailCarouselInner" class="carousel-inner rounded-4 overflow-hidden"></div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#detailCarousel" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Anterior</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#detailCarousel" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Siguiente</span>
+            </button>
+          </div>
+
+          <div class="row g-4">
+            <div class="col-12 col-lg-8">
+              <section class="detail-box">
+                <h3 class="h5">Descripción</h3>
+                <p id="detailDescription" class="mb-0"></p>
+              </section>
+
+              <section class="detail-box mt-4">
+                <h3 class="h5">Video de la propiedad</h3>
+                <div class="ratio ratio-16x9 rounded-4 overflow-hidden">
+                  <iframe id="detailVideo" src="" title="Video propiedad" allowfullscreen loading="lazy"></iframe>
+                </div>
+              </section>
+
+              <section class="detail-box mt-4">
+                <h3 class="h5">Ubicación</h3>
+                <div class="ratio ratio-16x9 rounded-4 overflow-hidden">
+                  <iframe id="detailMap" src="" title="Mapa propiedad" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+              </section>
+            </div>
+
+            <div class="col-12 col-lg-4">
+              <aside class="price-card">
+                <p class="small text-uppercase text-secondary mb-1">Precio de publicación</p>
+                <p id="detailPriceUf" class="h3 mb-1 text-gold"></p>
+                <p id="detailPriceClp" class="small text-secondary"></p>
+
+                <ul class="list-unstyled spec-list mt-3 mb-4">
+                  <li><i class="bi bi-house-door"></i><span id="detailType"></span></li>
+                  <li><i class="bi bi-rulers"></i><span id="detailAreas"></span></li>
+                  <li><i class="bi bi-moon-stars"></i><span id="detailBeds"></span></li>
+                  <li><i class="bi bi-droplet"></i><span id="detailBaths"></span></li>
+                </ul>
+
+                <h4 class="h6">Modalidades de pago</h4>
+                <ul id="detailPayments" class="list-group list-group-flush"></ul>
+
+                <div class="d-grid gap-2 mt-4">
+                  <a id="detailWhatsapp" class="btn btn-success" href="#" target="_blank" rel="noopener noreferrer">
+                    <i class="bi bi-whatsapp me-2"></i>Contactar por WhatsApp
+                  </a>
+                  <a id="detailAgenda" class="btn btn-outline-dark" href="#" target="_blank" rel="noopener noreferrer">
+                    <i class="bi bi-calendar-check me-2"></i>Agendar tour virtual
+                  </a>
+                </div>
+              </aside>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="toast-container feedback-toast-stack position-fixed end-0 p-3">
+    <div id="feedbackToast" class="toast align-items-center text-bg-dark border-0" role="status" aria-live="polite" aria-atomic="true">
+      <div class="d-flex">
+        <div id="feedbackToastBody" class="toast-body"></div>
+        <button type="button" class="btn-close btn-close-white me-2 m-auto" data-bs-dismiss="toast" aria-label="Cerrar"></button>
+      </div>
+    </div>
+  </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/js/app.js"></script>
+</body>
+</html>
