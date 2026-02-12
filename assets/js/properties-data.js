@@ -19,7 +19,7 @@
     images: [
       "https://images.unsplash.com/photo-1512918728675-ed5a9ecdebfd?auto=format&fit=crop&w=1200&q=80",
       "https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?auto=format&fit=crop&w=1200&q=80",
-      "https://images.unsplash.com/photo-1515263487990-61b07816b324?auto=format&fit=crop&w=1200&q=80"
+      "https://images.unsplash.com/photo-1515263487990-61b07816b324?auto=format&fit=crop&w=1200&q=80",
     ],
     description:
       "Residencia de arquitectura contemporanea con terminaciones premium, quincho equipado y acceso rapido al centro de Pucon. Ideal para segunda vivienda o renta vacacional de alto nivel.",
@@ -28,9 +28,9 @@
     paymentOptions: [
       "Credito hipotecario con bancos en convenio.",
       "Pago contado con descuento por cierre inmediato.",
-      "Combinacion contado + credito con promesa flexible."
+      "Combinacion contado + credito con promesa flexible.",
     ],
-    agendaUrl: "https://calendar.google.com"
+    agendaUrl: "https://calendar.google.com",
   },
   {
     id: 2,
@@ -52,7 +52,7 @@
     images: [
       "https://images.unsplash.com/photo-1593696140826-c58b021acf8b?auto=format&fit=crop&w=1200&q=80",
       "https://images.unsplash.com/photo-1464146072230-91cabc968266?auto=format&fit=crop&w=1200&q=80",
-      "https://images.unsplash.com/photo-1505691938895-1758d7feb511?auto=format&fit=crop&w=1200&q=80"
+      "https://images.unsplash.com/photo-1505691938895-1758d7feb511?auto=format&fit=crop&w=1200&q=80",
     ],
     description:
       "Parcela de agrado rodeada de bosque nativo con cabana habilitada, factibilidad electrica y agua de pozo. Excelente conectividad para proyecto familiar o descanso.",
@@ -61,9 +61,9 @@
     paymentOptions: [
       "Pago contado.",
       "Credito directo hasta 12 cuotas sin interes.",
-      "Leasing para inversionistas (sujeto a evaluacion)."
+      "Leasing para inversionistas (sujeto a evaluacion).",
     ],
-    agendaUrl: "https://calendar.google.com"
+    agendaUrl: "https://calendar.google.com",
   },
   {
     id: 3,
@@ -85,7 +85,7 @@
     images: [
       "https://images.unsplash.com/photo-1494526585095-c41746248156?auto=format&fit=crop&w=1200&q=80",
       "https://images.unsplash.com/photo-1484154218962-a197022b5858?auto=format&fit=crop&w=1200&q=80",
-      "https://images.unsplash.com/photo-1505693416388-ac5ce068fe85?auto=format&fit=crop&w=1200&q=80"
+      "https://images.unsplash.com/photo-1505693416388-ac5ce068fe85?auto=format&fit=crop&w=1200&q=80",
     ],
     description:
       "Departamento en piso alto con orientacion nororiente, cercano a universidades y servicios. Gran opcion para familia joven o inversion en arriendo tradicional.",
@@ -94,9 +94,9 @@
     paymentOptions: [
       "Credito hipotecario tradicional.",
       "Pie en cuotas durante promesa.",
-      "Pago al contado con escritura preferente."
+      "Pago al contado con escritura preferente.",
     ],
-    agendaUrl: "https://calendar.google.com"
+    agendaUrl: "https://calendar.google.com",
   },
   {
     id: 4,
@@ -118,18 +118,19 @@
     images: [
       "https://images.unsplash.com/photo-1518780664697-55e3ad937233?auto=format&fit=crop&w=1200&q=80",
       "https://images.unsplash.com/photo-1576941089067-2de3c901e126?auto=format&fit=crop&w=1200&q=80",
-      "https://images.unsplash.com/photo-1582268611958-ebfd161ef9cf?auto=format&fit=crop&w=1200&q=80"
+      "https://images.unsplash.com/photo-1582268611958-ebfd161ef9cf?auto=format&fit=crop&w=1200&q=80",
     ],
     description:
       "Cabana de diseno nordico con tinaja y terraza panoramica. Zona con alta demanda de arriendo turistico durante todo el ano y acceso a rutas escenicas.",
     videoUrl: "https://www.youtube.com/embed/sd7JjE2RP6A",
-    mapUrl: "https://www.google.com/maps?q=Puerto%20Varas%2C%20Chile&output=embed",
+    mapUrl:
+      "https://www.google.com/maps?q=Puerto%20Varas%2C%20Chile&output=embed",
     paymentOptions: [
       "Pago contado.",
       "Credito hipotecario turistico.",
-      "Plan de pago mixto para inversionistas."
+      "Plan de pago mixto para inversionistas.",
     ],
-    agendaUrl: "https://calendar.google.com"
+    agendaUrl: "https://calendar.google.com",
   },
   {
     id: 5,
@@ -149,9 +150,8 @@
     baths: 0,
     parking: 0,
     images: [
-      "https://images.unsplash.com/photo-1473447198193-8c9ecb3f0f64?auto=format&fit=crop&w=1200&q=80",
       "https://images.unsplash.com/photo-1500382017468-9049fed747ef?auto=format&fit=crop&w=1200&q=80",
-      "https://images.unsplash.com/photo-1493314894560-5c412a56c17c?auto=format&fit=crop&w=1200&q=80"
+      "https://images.unsplash.com/photo-1493314894560-5c412a56c17c?auto=format&fit=crop&w=1200&q=80",
     ],
     description:
       "Terreno rural con topografia suave y acceso por camino principal. Factibilidad de subdivision predial para desarrollo de parcelas habitacionales.",
@@ -160,9 +160,9 @@
     paymentOptions: [
       "Contado.",
       "Permuta evaluable por departamento en Temuco.",
-      "Credito directo segun monto de pie."
+      "Credito directo segun monto de pie.",
     ],
-    agendaUrl: "https://calendar.google.com"
+    agendaUrl: "https://calendar.google.com",
   },
   {
     id: 6,
@@ -184,7 +184,7 @@
     images: [
       "https://images.unsplash.com/photo-1564013799919-ab600027ffc6?auto=format&fit=crop&w=1200&q=80",
       "https://images.unsplash.com/photo-1480074568708-e7b720bb3f09?auto=format&fit=crop&w=1200&q=80",
-      "https://images.unsplash.com/photo-1613977257365-aaae5a9817ff?auto=format&fit=crop&w=1200&q=80"
+      "https://images.unsplash.com/photo-1613977257365-aaae5a9817ff?auto=format&fit=crop&w=1200&q=80",
     ],
     description:
       "Casa moderna en barrio consolidado, cercana a colegios y comercio. Incluye cocina integrada, patio interior y sala multiuso para teletrabajo.",
@@ -193,8 +193,8 @@
     paymentOptions: [
       "Credito hipotecario.",
       "Contado con ahorro en gastos operacionales.",
-      "Pie en dos etapas durante proceso de escritura."
+      "Pie en dos etapas durante proceso de escritura.",
     ],
-    agendaUrl: "https://calendar.google.com"
-  }
+    agendaUrl: "https://calendar.google.com",
+  },
 ];
